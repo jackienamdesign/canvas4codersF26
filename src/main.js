@@ -2,7 +2,6 @@ import './style.css'
 import heroImg from './assets/hero.png'
 import javascriptLogo from './assets/javascript.svg'
 import viteLogo from './assets/vite.svg'
-import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
 <section id="center">
@@ -15,7 +14,6 @@ document.querySelector('#app').innerHTML = `
     <h1>Get started</h1>
     <p>Edit <code>src/main.js</code> and save to test <code>HMR</code></p>
   </div>
-  <button id="counter" type="button" class="counter"></button>
 </section>
 
 <div class="ticks"></div>
@@ -57,4 +55,3 @@ document.querySelector('#app').innerHTML = `
 <section id="spacer"></section>
 `
 
-setupCounter(document.querySelector('#counter'))
